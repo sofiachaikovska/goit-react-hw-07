@@ -1,0 +1,33 @@
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.formItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.formField {
+  width: 280px;
+  padding: 3px;
+}
+
+.formErrorMessage {
+  color: red;
+}
+
+.formButton {
+  padding: 8px;
+}
